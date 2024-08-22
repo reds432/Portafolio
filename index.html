@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Acerca de mí</h1>
+            <link rel="stylesheet" href="img/pexe">
+            <p>Soy Juan David, un desarrollador web apasionado con experiencia en diversas cosas. Me gusta buscar soluciones a diferentes problemas y ser sociable.</p>
+            <p>Mis habilidades incluyen:</p>
+            <ul>
+                <li>Jugar futbol</li>
+                <li>Ser buen compañerista</li>
+                <li>Ayudar a las demas personas</li>
+            </ul>
+            <h2>Habilidades y Debilidades</h2>
+            <table>
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Nivel</th>
+                    <th>Debilidades</th>
+                    <th>Área</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo web con HTML, CSS y Python</td>
+                    <td>Medio bajo</td>
+                    <td>Gestión de proyectos</td>
+                    <td>mejora</td>
+                </tr>
+                <tr>
+                    <td>Diseño web</td>
+                    <td>Intermedio</td>
+                    <td>Comunicación</td>
+                    <td>Buena</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo de problemas</td>
+                    <td>Principiante</td>
+                    <td>Trabajo en equipo</td>
+                    <td>Buena</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermedio</td>
+                    <td>Resolución de conflictos</td>
+                    <td>Bueno</td>
+                </tr>
+            </table>
+            <img src="img/juan.jpg" alt="Juan David" width="200" height="200">
+        </section>
+        <section id="contact">
+            <h1>Contacto</h1>
+            <p>Puedes contactarme a través de:</p>
+            <ul>
+                <li><a href="mailto:tunombre@email.com">Correo electrónico</a></li>
+                <li><a href="https://twitter.com/tunombre">Twitter</a></li>
+                <li><a href="https://github.com/tunombre">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/tunombre/">LinkedIn</a></li>
+            </ul>
+            <p>O puedes llenar el formulario de contacto:</p>
+            <form> <label for="name">Nombre:</label> <input type="text" id="name" name="name" required><br><br> <label
+                    for="email">Correo electrónico:</label> <input type="email" id="email" name="email"
+                    required><br><br> <label for="phone">Teléfono:</label> <input type="tel" id="phone"
+                    name="phone"><br><br> <label for="message">Mensaje:</label> <textarea id="message" name="message"
+                    required></textarea><br><br> <label for="subject">Asunto:</label> <select id="subject"
+                    name="subject">
+                    <option value="consulta">Consulta</option>
+                    <option value="proyecto">Proyecto</option>
+                    <option value="colaboración">Colaboración</option>
+                    <option value="otro">Otro</option>
+                </select><br><br> <input type="checkbox" id="newsletter" name="newsletter"> <label
+                    for="newsletter">Deseo recibir noticias y actualizaciones</label><br><br> <input type="submit"
+                    value="Enviar"> </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Juan D. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
